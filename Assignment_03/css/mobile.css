@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .text-nav {
+        display: none;
+    }
+    .text-banner {
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 30%;
+        color: #ecf0f1;
+        font-size: 20px;
+    }
+    #nav-bar {
+        height: auto;
+        display: block;
+    }
+    #nav-bar a:link,
+    a:visited {
+        display: block;
+        padding: 10px;
+        border-left: none;
+        text-align: left;
+    }
+    #personal-info {
+        padding-right: 25px;
+    }
+    .cer-content-2 {
+        border-left: 0;
+        border-top: 2px solid #d6c08d;
+        padding-top: 28px;
+    }
+    #footer a:link {
+        margin-right: 10px;
+    }
+}
